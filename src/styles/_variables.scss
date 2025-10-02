@@ -1,0 +1,48 @@
+// Colors
+$blue-950: hsl(213, 96%, 18%);
+$purple-600: hsl(243, 100%, 62%);
+$blue-300: hsl(228, 100%, 84%);
+$blue-200: hsl(206, 94%, 87%);
+$red-500: hsl(354, 84%, 57%);
+
+$grey-500: hsl(231, 11%, 63%);
+$purple-200: hsl(229, 24%, 87%);
+$blue-100: hsl(218, 100%, 97%);
+$blue-50: hsl(231, 100%, 99%);
+$white: hsl(0, 100%, 100%);
+
+// Font
+$ubuntu-regular: 'Regular', sans-serif;
+$ubuntu-medium: 'Medium', sans-serif;
+$ubuntu-bold: 'Bold', sans-serif;
+
+// Font sizes
+$font-sm: 0.875rem;
+$font-md: 1rem;
+$font-lg: 1.125rem;
+$font-xl: 1.5rem;
+$font-xxl: 2rem;
+
+// Radius
+$radius-sm: 0.25rem;
+$radius-md: 0.5rem;
+$radius-lg: 1rem;
+
+$values: (1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+// @for $index from 1 through length($values)
+// @for $value in $values {
+//   $value: nth($values, $index);
+//   .m-#{$value} {
+//     margin: #{$value * 0.25}rem;
+//   }
+//   .p-#{$value} {
+//     padding: #{$value * 0.25}rem;
+//   }
+// }
+
+// Breakpoints
+$bp-sm: 600px;
+$bp-md: 850px;
+$bp-lg: 1200px;
+
